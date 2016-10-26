@@ -1,0 +1,357 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D027AF4F1DC04C5A00EDEEFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D027AF4E1DC04C5A00EDEEFE /* main.m */; };
+		D027AF521DC04C5A00EDEEFE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D027AF511DC04C5A00EDEEFE /* AppDelegate.m */; };
+		D027AF551DC04C5A00EDEEFE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D027AF541DC04C5A00EDEEFE /* ViewController.m */; };
+		D027AF581DC04C5A00EDEEFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D027AF561DC04C5A00EDEEFE /* Main.storyboard */; };
+		D027AF5A1DC04C5A00EDEEFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D027AF591DC04C5A00EDEEFE /* Assets.xcassets */; };
+		D027AF5D1DC04C5A00EDEEFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D027AF5B1DC04C5A00EDEEFE /* LaunchScreen.storyboard */; };
+		D027AF671DC04EDB00EDEEFE /* VCWebBrowserController.m in Sources */ = {isa = PBXBuildFile; fileRef = D027AF661DC04EDB00EDEEFE /* VCWebBrowserController.m */; };
+		D027AF6A1DC04EFC00EDEEFE /* VCWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = D027AF691DC04EFC00EDEEFE /* VCWebView.m */; };
+		D027AF961DC06D8900EDEEFE /* NJKWebViewProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = D027AF931DC06D8900EDEEFE /* NJKWebViewProgress.m */; };
+		D027AF971DC06D8900EDEEFE /* NJKWebViewProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = D027AF951DC06D8900EDEEFE /* NJKWebViewProgressView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D027AF4A1DC04C5A00EDEEFE /* VCWebBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VCWebBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D027AF4E1DC04C5A00EDEEFE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D027AF501DC04C5A00EDEEFE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D027AF511DC04C5A00EDEEFE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D027AF531DC04C5A00EDEEFE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D027AF541DC04C5A00EDEEFE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D027AF571DC04C5A00EDEEFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D027AF591DC04C5A00EDEEFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D027AF5C1DC04C5A00EDEEFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D027AF5E1DC04C5A00EDEEFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D027AF651DC04EDB00EDEEFE /* VCWebBrowserController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCWebBrowserController.h; sourceTree = "<group>"; };
+		D027AF661DC04EDB00EDEEFE /* VCWebBrowserController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCWebBrowserController.m; sourceTree = "<group>"; };
+		D027AF681DC04EFC00EDEEFE /* VCWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCWebView.h; sourceTree = "<group>"; };
+		D027AF691DC04EFC00EDEEFE /* VCWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCWebView.m; sourceTree = "<group>"; };
+		D027AF921DC06D8900EDEEFE /* NJKWebViewProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJKWebViewProgress.h; sourceTree = "<group>"; };
+		D027AF931DC06D8900EDEEFE /* NJKWebViewProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJKWebViewProgress.m; sourceTree = "<group>"; };
+		D027AF941DC06D8900EDEEFE /* NJKWebViewProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJKWebViewProgressView.h; sourceTree = "<group>"; };
+		D027AF951DC06D8900EDEEFE /* NJKWebViewProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJKWebViewProgressView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D027AF471DC04C5A00EDEEFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D027AF411DC04C5A00EDEEFE = {
+			isa = PBXGroup;
+			children = (
+				D027AF4C1DC04C5A00EDEEFE /* VCWebBrowser */,
+				D027AF4B1DC04C5A00EDEEFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D027AF4B1DC04C5A00EDEEFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D027AF4A1DC04C5A00EDEEFE /* VCWebBrowser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D027AF4C1DC04C5A00EDEEFE /* VCWebBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				D027AF911DC06D8900EDEEFE /* NJKWebViewProgress */,
+				D027AF641DC04E8C00EDEEFE /* VCWebB */,
+				D027AF501DC04C5A00EDEEFE /* AppDelegate.h */,
+				D027AF511DC04C5A00EDEEFE /* AppDelegate.m */,
+				D027AF531DC04C5A00EDEEFE /* ViewController.h */,
+				D027AF541DC04C5A00EDEEFE /* ViewController.m */,
+				D027AF561DC04C5A00EDEEFE /* Main.storyboard */,
+				D027AF591DC04C5A00EDEEFE /* Assets.xcassets */,
+				D027AF5B1DC04C5A00EDEEFE /* LaunchScreen.storyboard */,
+				D027AF5E1DC04C5A00EDEEFE /* Info.plist */,
+				D027AF4D1DC04C5A00EDEEFE /* Supporting Files */,
+			);
+			path = VCWebBrowser;
+			sourceTree = "<group>";
+		};
+		D027AF4D1DC04C5A00EDEEFE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D027AF4E1DC04C5A00EDEEFE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D027AF641DC04E8C00EDEEFE /* VCWebB */ = {
+			isa = PBXGroup;
+			children = (
+				D027AF681DC04EFC00EDEEFE /* VCWebView.h */,
+				D027AF691DC04EFC00EDEEFE /* VCWebView.m */,
+				D027AF651DC04EDB00EDEEFE /* VCWebBrowserController.h */,
+				D027AF661DC04EDB00EDEEFE /* VCWebBrowserController.m */,
+			);
+			path = VCWebB;
+			sourceTree = "<group>";
+		};
+		D027AF911DC06D8900EDEEFE /* NJKWebViewProgress */ = {
+			isa = PBXGroup;
+			children = (
+				D027AF921DC06D8900EDEEFE /* NJKWebViewProgress.h */,
+				D027AF931DC06D8900EDEEFE /* NJKWebViewProgress.m */,
+				D027AF941DC06D8900EDEEFE /* NJKWebViewProgressView.h */,
+				D027AF951DC06D8900EDEEFE /* NJKWebViewProgressView.m */,
+			);
+			path = NJKWebViewProgress;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D027AF491DC04C5A00EDEEFE /* VCWebBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D027AF611DC04C5A00EDEEFE /* Build configuration list for PBXNativeTarget "VCWebBrowser" */;
+			buildPhases = (
+				D027AF461DC04C5A00EDEEFE /* Sources */,
+				D027AF471DC04C5A00EDEEFE /* Frameworks */,
+				D027AF481DC04C5A00EDEEFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VCWebBrowser;
+			productName = VCWebBrowser;
+			productReference = D027AF4A1DC04C5A00EDEEFE /* VCWebBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D027AF421DC04C5A00EDEEFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Tang guifu";
+				TargetAttributes = {
+					D027AF491DC04C5A00EDEEFE = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 2AF4HF959P;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D027AF451DC04C5A00EDEEFE /* Build configuration list for PBXProject "VCWebBrowser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D027AF411DC04C5A00EDEEFE;
+			productRefGroup = D027AF4B1DC04C5A00EDEEFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D027AF491DC04C5A00EDEEFE /* VCWebBrowser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D027AF481DC04C5A00EDEEFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D027AF5D1DC04C5A00EDEEFE /* LaunchScreen.storyboard in Resources */,
+				D027AF5A1DC04C5A00EDEEFE /* Assets.xcassets in Resources */,
+				D027AF581DC04C5A00EDEEFE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D027AF461DC04C5A00EDEEFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D027AF961DC06D8900EDEEFE /* NJKWebViewProgress.m in Sources */,
+				D027AF551DC04C5A00EDEEFE /* ViewController.m in Sources */,
+				D027AF521DC04C5A00EDEEFE /* AppDelegate.m in Sources */,
+				D027AF671DC04EDB00EDEEFE /* VCWebBrowserController.m in Sources */,
+				D027AF6A1DC04EFC00EDEEFE /* VCWebView.m in Sources */,
+				D027AF971DC06D8900EDEEFE /* NJKWebViewProgressView.m in Sources */,
+				D027AF4F1DC04C5A00EDEEFE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D027AF561DC04C5A00EDEEFE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D027AF571DC04C5A00EDEEFE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D027AF5B1DC04C5A00EDEEFE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D027AF5C1DC04C5A00EDEEFE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D027AF5F1DC04C5A00EDEEFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D027AF601DC04C5A00EDEEFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D027AF621DC04C5A00EDEEFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2AF4HF959P;
+				INFOPLIST_FILE = VCWebBrowser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vcainfo.dscyz.VCWebBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D027AF631DC04C5A00EDEEFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2AF4HF959P;
+				INFOPLIST_FILE = VCWebBrowser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vcainfo.dscyz.VCWebBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D027AF451DC04C5A00EDEEFE /* Build configuration list for PBXProject "VCWebBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D027AF5F1DC04C5A00EDEEFE /* Debug */,
+				D027AF601DC04C5A00EDEEFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D027AF611DC04C5A00EDEEFE /* Build configuration list for PBXNativeTarget "VCWebBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D027AF621DC04C5A00EDEEFE /* Debug */,
+				D027AF631DC04C5A00EDEEFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D027AF421DC04C5A00EDEEFE /* Project object */;
+}
