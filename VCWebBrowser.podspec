@@ -16,7 +16,7 @@ s.license      = { :type => "Apache License", :file => "LICENSE" }
 
 s.author             = { "gftang" => "gftang@vcainfo.com" }
 
-s.platform     = :ios, "7.0"
+s.platform     = :ios, "8.0"
 
 s.requires_arc = true
 
@@ -26,6 +26,6 @@ s.source_files  = "VCWebBrowser/VCWebB/*.{h,m}"
 
 s.frameworks = "UIKit"
 
-s.dependency 'NJKWebViewProgress', '~> 0.2.3'
+s.dependency = 'NJKWebViewProgress', '~> 0.2.3'
 
 end
